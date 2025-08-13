@@ -1,0 +1,7 @@
+zeek-threat-hunt-lab/
+├── pcaps/                  # Sanitized test traffic
+├── scripts/                # Zeek + automation scripts
+├── logs/                   # Zeek output logs
+├── dashboards/             # Kibana JSON exports
+├── README.md
+└── LICENSE
