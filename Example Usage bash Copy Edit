@@ -1,0 +1,5 @@
+# Run Zeek on a PCAP
+zeek -r pcaps/test_attack.pcap
+
+# View logs
+cat logs/conn.log | zeek-cut id.orig_h id.resp_h service
